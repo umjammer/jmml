@@ -1,0 +1,31 @@
+CHANGELOG
+
+v0.4.1
+- Full support to MSNP8 (all protocols packages now are treated);
+- Microsoft disabled LST and LSG protocol commands and MessengerServerManager.requestList() method don't work anymore (call this method will disconnect the library from MSN Network), you can treat lists with MessengerServerManager.requestContactList();
+- Now JMML can send email invitations;
+
+v0.4
+- Now JMML can be found at http://www.planetamessenger.org
+- NOTE: EXISTING JMML APPS MAY BREAK
+- signIn() now can set status on login
+- Support to new MSNP8 (new MSN protocol version)
+- Added contact list support (add, remove, ...)
+- Added new MSN network events (contactReceived, loginError, .....)
+- Added support to set library status (ON_PHONE, ONLINE, OFFLINE, APPEAR_OFFLINE, ....)
+- Added exception support;
+- Added ANT build script;
+- A lot of bug fixes
+
+v0.3
+- NOTE: EXISTING JMML APPS MAY BREAK
+- signIn() now blocks until sign in is complete (the execution can be made non-blocking, but if you want that behaviour, you ahve to call it as signIn (username, password, false) <-- false is for non-blocking
+- Fixed a bug where the switchboard session wouldn't end even if you were the last person in the conversation
+
+v0.2
+- Packaged
+- a few code cleanups
+- added samples
+
+v0.1
+- First release
