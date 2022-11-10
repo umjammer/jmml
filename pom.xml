@@ -8,7 +8,7 @@
 
   <groupId>jmml</groupId>
   <artifactId>jmml</artifactId>
-  <version>0.4.2-SNAPSHOT</version>
+  <version>0.4.2</version>
 
   <name>Java MSN Messenger Library</name>
   <organization>
