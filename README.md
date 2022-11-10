@@ -1,3 +1,8 @@
+[![Release](https://jitpack.io/v/umjammer/jmml.svg)](https://jitpack.io/#umjammer/jmml)
+[![Java CI](https://github.com/umjammer/jmml/actions/workflows/maven.yml/badge.svg)](https://github.com/umjammer/jmml/actions/workflows/maven.yml)
+[![CodeQL](https://github.com/umjammer/jmml/actions/workflows/codeql.yml/badge.svg)](https://github.com/umjammer/jmml/actions/workflows/codeql-analysis.yml)
+![Java](https://img.shields.io/badge/Java-8-b07219)
+
 Java MSN Messenger Library
 --------------------------
 
